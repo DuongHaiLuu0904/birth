@@ -1,11 +1,9 @@
-const contentLetterSrart_actived = "." //Lời mở đầu cho bức thư
-const mainContentLetter = "." //Nội dung của bức thư
+const contentLetterSrart_actived = "Hello bạn iu của tớ, cũng lâu lắm rồi tớ và m cũng chưa gặp nhau nhỉ. Không biết là bạn của tớ đã quên mặt của tớ chưa. Chờ tớ ra Hà Nội rồi tớ tạ lỗi với cậu nhá. Còn điều tớ muốn nói với cậu nè, bấm vào hộp quà heyyyyy😘😘😘😘" //Lời mở đầu cho bức thư
+const mainContentLetter = "Chúc bạn iu của tớ sinh nhật vui vẻ, tuổi mới xinh lại thêm xinh, duyên lại càng thêm duyên và yêu đời nhaa. Bạn iu sau này giàu đừng quên tớ nhaa, dù là tình bạn này nó có chút bấp bênh chút overthingking nhma tớ quý bạn tớ lắm đó, hứa đừng bỏ bạn đó nhaa. " //Nội dung của bức thư
 
-// Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
 imgStart.src = "./img/cute-young-boy-kid-wearing-vest-and-hat-free-png.png";
 
-// Gắn 1 link ảnh bất kì
 let imgLetter = document.querySelector(".img");
 imgLetter.src = "./img/b4bbdb54b7152338d7143cb444a77f09.png"; //Hình ảnh xuất hiện trong nội dung của bức thư sau khi bức thư được viết ra hết
 
@@ -68,7 +66,6 @@ document.querySelector(".recieve").addEventListener("click", () => {
 })
 
 // Animation Drop light _ Tạo hiệu ứng kim tuyến rơi
-//Bạn có thể thiết kế lại để trông chân thật hơn nhé, thiết kế của mình hơi bị cứng và thiếu sự tự nhiên
 const getBackground = document.querySelector(".backgroundParty");
 var width = getBackground.offsetWidth;
 var height = getBackground.offsetHeight;
